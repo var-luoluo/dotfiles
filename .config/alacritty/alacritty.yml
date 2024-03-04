@@ -1,0 +1,32 @@
+window:
+  opacity: 0.8
+  decorations: none
+  startup_mode: Maximized
+  dimensions:
+    columns: 120
+    lines: 60
+  padding:
+    x: 10
+    y: 15
+
+scrolling:
+  history: 500
+  auto_scroll: true
+
+font:
+  size: 16
+  normal:
+    family: 'FiraCode Nerd Font'
+    style: Regular
+  bold:
+    family: 'FiraCode Nerd Font'
+    style: Bold
+  italic:
+    family: 'FireCode nerd font'
+    style: Italic
+  bold_italic:
+    family: 'FireCode nerd font'
+    style: Bold Italic
+
+import:
+  - ~/.alacritty/alacritty/themes/snazzy.yaml
